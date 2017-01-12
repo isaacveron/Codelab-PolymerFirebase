@@ -1,0 +1,24 @@
+:host {
+  display: block;
+  padding: 10px;
+}
+#create {
+  width: 100%;
+}
+#notes-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+#notes-list li {
+  @apply(--layout-horizontal);
+  @apply(--layout-center);
+}
+#notes-list .content {
+  @apply(--layout-flex);
+  padding: 8px;
+}
+#notes-controls {
+  @apply(--layout-horizontal);
+  @apply(--layout-center-justified);
+}
